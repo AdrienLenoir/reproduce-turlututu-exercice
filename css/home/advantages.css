@@ -1,0 +1,26 @@
+.advantages {
+    background-color: #1e93cc;
+    padding: 40px 0;
+}
+
+.advantages .advantages-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 -20px;
+}
+
+.advantages .advantage {
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+}
+
+.advantages .advantage .advantage-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.advantages .advantage .advantage-description {
+    font-size: 20px;
+}
